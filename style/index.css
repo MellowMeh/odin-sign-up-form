@@ -40,18 +40,20 @@ main {
     border-style: solid;
 }
 
-.logo-container {
-    position: absolute;
-    background-color: black;
-    opacity: 20%;
-}
-
 .image-container {
     height: 100%;
     width: 100%;
     border-style: solid;
     border-color: purple;
 }
+
+.logo-container {
+    position: absolute;
+    background-color: black;
+    opacity: 20%;
+}
+
+
 
 .image-attribution {
     position: absolute;
