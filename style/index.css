@@ -40,6 +40,17 @@ main {
     border-style: solid;
 }
 
+.image-container {
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-color: purple;
+}
+
+.image-attribution {
+    position: absolute;
+}
+
 .form-container {
     width: 60%;
     border-color: red;
