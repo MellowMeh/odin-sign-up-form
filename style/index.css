@@ -47,6 +47,11 @@ main {
     border-color: purple;
 }
 
+.graphic {
+    height: 100%;
+    width: 100%;
+}
+
 .logo-container {
     position: absolute;
     background-color: black;
