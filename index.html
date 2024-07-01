@@ -7,7 +7,55 @@
     <title>Odin-sign-up-form</title>
 </head>
 <body>
-    
+    <main>
+        <div class="side-graphic">
+            <div class="logo"></div>
+            <div class="image-container">
+                <img class="graphic">
+            </div>
+            <div class="image-attribution">Image by 
+                <a href="https://pixabay.com/users/hey-judas-22410603/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8396377">Judas</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8396377">Pixabay</a></div>
+        </div>
+
+        <div class="form-container">
+            <h1 class="main-header">Get Started!</h1>
+
+            <form action="/handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="first-name">first name</label>
+                        <input type="text" id="first-name" name="user-first-name">
+                    </li>
+                    <li>
+                        <label for="last-name">last name</label>
+                        <input type="text" id="last-name" name="user-last-name">
+                    </li>
+                    <li>
+                        <label for="email">e-mail</label>
+                        <input type="email" id="email" name="user-email">
+                    </li>
+                    <li>
+                        <label for="phone">phone</label>
+                        <input type="number" id="phone" name="user-phone">
+                    </li>
+                    <li>
+                        <label for="password">password</label>
+                        <input type="password" name="password" id="user-password">
+                    </li>
+                    <li>
+                        <label for="confirm-password">confirm password</label>
+                        <input type="password" name="confirm-password" id="user-confirm-password">
+                    </li>
+                </ul>
+            </form>
+
+            <button type="submit" class="submit-button">create account</button>
+
+            <p class="account-subtext">already have an account...?</p>
+            
+            <a href="https://www.theodinproject.com/" target="_blank" rel="noopener">log in</a>
+        </div>
+    </main>
 </body>
 
 <script src="./script/index.js"></script>
