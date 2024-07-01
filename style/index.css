@@ -34,15 +34,13 @@ main {
     display: flex;
     height: 100svh;
     width: 100svw;
-    border-color: green;
-    border-style: solid;
 }
 
 .side-graphic {
     position: relative;
     display: flex;
     width: 40%;
-    border-color: red;
+    border-color: #0c1122;
     border-style: solid;
 }
 
@@ -50,7 +48,7 @@ main {
     height: 100%;
     width: 100%;
     border-style: solid;
-    border-color: purple;
+    border-color: #0c1122;
 }
 
 .graphic {
