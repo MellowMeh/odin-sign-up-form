@@ -1,3 +1,72 @@
-body {
-    background-color: black;
+/*CSS reset - Josh Comeau*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+ 
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+/*Global Style Defaults*/
+* {
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+    max-inline-size: 66ch;
+    line-height: 1.65;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    font-weight: normal;
 }
+
+:root {
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+    max-inline-size: 66ch;
+    line-height: 1.65;
+    --border-btn: 1px solid rgb(36, 36, 36);
+    --color-base-bg: rgb(240, 240, 240);
+    --color-base-text: rgb(18, 18, 18);
+    --color-btn-bg: rgb(220, 220, 220);
+    --theme-name: "light";
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --border-btn: 1px solid rgb(220, 220, 220);
+      --color-base-bg: rgb(18, 18, 18);
+      --color-base-text: rgb(240, 240, 240);
+      --color-btn-bg: rgb(36, 36, 36);
+      --theme-name: "dark";
+    }
+  }
+
+  body {
+    background-color: var(--color-base-bg);
+    color: var(--color-base-text);
+    padding: 10px;
+  }
+  
+  .theme-name::after {
+    content: var(--theme-name);
+  }
+
