@@ -102,5 +102,5 @@ main {
     color: #da956c;
     border-style: solid;
     border-color: red;
-    font-size: var(--default-font-size);
+    font-size: calc(var(--default-font-size)*.75);
 }
