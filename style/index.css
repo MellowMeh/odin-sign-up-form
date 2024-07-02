@@ -154,3 +154,18 @@ input {
     height:70px;
     border-radius: 10px;
 }
+
+.log-in-container {
+    display: flex;
+    margin: 15px 0px 0px 0px;
+    gap: 10px;
+}
+
+.account-subtext {
+    font-size: calc(var(--default-font-size)*.5);
+}
+
+.log-in-container a {
+    font-size: calc(var(--default-font-size)*.5);
+    text-transform: uppercase;
+}
