@@ -103,4 +103,11 @@ main {
     border-style: solid;
     border-color: red;
     font-size: calc(var(--default-font-size)*.75);
+    text-transform: capitalize;
+}
+
+.main-header {
+    font-size: calc(var(--default-font-size)*1.25);
+    letter-spacing: .25rem;
+    
 }
