@@ -100,7 +100,6 @@ main {
     flex-direction: column;
     padding: 12% 6%;
     width: 60%;
-    color: #da956c;
     font-size: calc(var(--default-font-size)*.75);
     text-transform: capitalize;
 }
@@ -108,6 +107,7 @@ main {
 .main-header {
     font-size: calc(var(--default-font-size)*1.25);
     letter-spacing: .25rem;
+    color: whitesmoke;
 }
 
 form {
@@ -116,6 +116,9 @@ form {
     justify-content: space-around;
     width: 100%;
     height: 80%;
+    color: #3b3e79;
+    text-transform: uppercase;
+    font-size: calc(var(--default-font-size)*.6);
 }
 
 span {
@@ -136,15 +139,23 @@ li {
 
 input {
     width: 100%;
+    background-color: #010513;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #736d97;
 }
 
 .submit-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 280px;
-    height:70px;
+    background-color: #f47f51;
+    color: whitesmoke;
+    width: calc(var(--default-font-size)*7.5);
+    height: calc(var(--default-font-size)*1.5);
     border-radius: 10px;
+    text-transform: capitalize;
+    font-size: calc(var(--default-font-size)*.75);
 }
 
 .log-in-container {
@@ -155,9 +166,11 @@ input {
 
 .account-subtext {
     font-size: calc(var(--default-font-size)*.5);
+    color: #535684
 }
 
 .log-in-container a {
     font-size: calc(var(--default-font-size)*.5);
     text-transform: uppercase;
+    color: #f5ab8d;
 }
