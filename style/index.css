@@ -6,9 +6,6 @@
     border: none;
     list-style-type: none;
     font-size: 16px;
-    font-size: inherit;
-    font-weight: normal;
-    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
 }
 
 a {
