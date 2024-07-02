@@ -144,3 +144,12 @@ li {
 input {
     width: 100%;
 }
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height:70px;
+    border-radius: 10px;
+}
