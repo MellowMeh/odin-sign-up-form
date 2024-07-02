@@ -9,6 +9,7 @@
     font-size: inherit;
     font-weight: normal;
     font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+}
 
 a {
     color: inherit;
@@ -19,8 +20,7 @@ img {
     max-width: 100%;
     height: auto;
 }
-    
-}
+
 /*Default CSS Custom Variables*/
 :root {
     --default-overflow-wrap: break-word;
