@@ -34,6 +34,7 @@ main {
     display: flex;
     height: 100svh;
     width: 100svw;
+    background-color: #010513;
 }
 
 .side-graphic {
@@ -95,5 +96,4 @@ main {
 
 .form-container {
     width: 60%;
-    background-color: #010513;
 }
