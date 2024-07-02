@@ -40,7 +40,7 @@ main {
     position: relative;
     display: flex;
     width: 40%;
-    border-color: #0c1122;
+    border-color: #010513;
     border-style: solid;
 }
 
@@ -48,7 +48,7 @@ main {
     height: 100%;
     width: 100%;
     border-style: solid;
-    border-color: #0c1122;
+    border-color: #010513;
 }
 
 .graphic {
@@ -95,6 +95,5 @@ main {
 
 .form-container {
     width: 60%;
-    border-color: red;
-    border-style: solid;
+    background-color: #010513;
 }
