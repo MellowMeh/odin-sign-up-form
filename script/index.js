@@ -1,6 +1,12 @@
 let firstNameBox = document.querySelector('.first-name-box');
+let firstNameText = document.querySelector('.first-name-box span')
 let lastNameBox = document.querySelector('.last-name-box');
+let lastNameText = document.querySelector('.last-name-box span');
 let emailBox = document.querySelector('.email-box');
+let emailText = document.querySelector('.email-box span');
 let phoneNumberBox = document.querySelector('.phone-number-box');
+let phoneNumberText = document.querySelector('.phone-number-box span');
 let passwordBox = document.querySelector('.password-box');
+let passwordText = document.querySelector('.password-box span');
 let confirmPasswordBox = document.querySelector('.confirm-password-box');
+let confirmPasswordText = document.querySelector('.confirm-password-box span');
