@@ -11,26 +11,25 @@ let passwordText = document.querySelector('.password-box span');
 let confirmPasswordBox = document.querySelector('.confirm-password-box');
 let confirmPasswordText = document.querySelector('.confirm-password-box span');
 
-firstNameText.addEventListener('click', () => {
-    firstNameBox.removeChild(firstNameText);
-})
-
-lastNameText.addEventListener('click', () => {
-    lastNameBox.removeChild(lastNameText);
-})
-
-emailText.addEventListener('click', () => {
-    emailBox.removeChild(emailText);
-})
-
-phoneNumberText.addEventListener('click', () => {
-    phoneNumberBox.removeChild(phoneNumberText);
-})
-
-passwordText.addEventListener('click', () => {
-    passwordBox.removeChild(passwordText);
-})
-
-confirmPasswordText.addEventListener('click', () => {
-    confirmPasswordBox.removeChild(confirmPasswordText);
-})
+window.onclick = function(e) {
+    switch (e.srcElement.className) {
+        case 'first-name-box':
+            firstNameBox.removeChild(firstNameText);
+            break
+        case 'last-name-box':
+            lastNameBox.removeChild(lastNameText);
+            break
+        case 'email-box':
+            emailBox.removeChild(emailText);
+            break
+        case 'phone-number-box':
+            phoneNumberBox.removeChild(phoneNumberText);
+            break
+        case 'password-box':
+            passwordBox.removeChild(passwordText);
+            break
+        case 'confirm-password-box':
+            confirmPasswordBox.removeChild(confirmPasswordText);
+            break
+    }
+}
