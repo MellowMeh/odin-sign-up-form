@@ -207,11 +207,21 @@ input:valid + .labelline {
     transform: translate(5%, -150%);
     z-index: 1111;
 }
+input:user-invalid {
+    color: red;
+    border: 2px solid red;
+    padding: 20px;
+}
 
-
-
-
-
+input:user-invalid + .labelline {
+    color: red;
+    background-color: #010513;
+    width: auto;
+    height: auto;
+    font-size: calc(var(--default-font-size)*.55);
+    transform: translate(5%, -150%);
+    z-index: 1111;
+}
 
 .submit-button {
     display: flex;
