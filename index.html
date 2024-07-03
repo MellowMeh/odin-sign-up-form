@@ -25,42 +25,13 @@
             <h1 class="main-header">get started</h1>
 
             <form action="/handling-form-page" method="post">
-                <ul>
-                    <li id="first-name-box">
+                <div class="container">
+                    <div class="entryarea">
                         <label for="first-name-input"></label>
-                        <span id="first-name-text">first name</span>
-                        <input type="text" id="first-name-input" name="user-first-name" autocomplete="off">
-                    </li>
-                    <li id="last-name-box">
-                        <label for="last-name-input"></label>
-                        <span id="last-name-text">last name</span>
-                        <input type="text" id="last-name-input" name="user-last-name" autocomplete="off">
-                    </li>
-                </ul>
-                <ul>
-                    <li id="email-box">
-                        <label for="email-input"></label>
-                        <span id="email-text">e-mail</span>
-                        <input type="email" id="email-input" name="user-email" autocomplete="off">
-                    </li>
-                    <li id="phone-number-box">
-                        <label for="phone-number-input"></label>
-                        <span id="phone-number-text">phone number</span>
-                        <input type="number" id="phone-number-input" name="user-phone" autocomplete="off">
-                    </li>
-                </ul>
-                <ul>
-                    <li id="password-box">
-                        <label for="password-input"></label>
-                        <span id="password-text">password</span>
-                        <input type="password" id="password-input" name="user-password" autocomplete="off">
-                    </li>
-                    <li id="confirm-password-box">
-                        <label for="confirm-password-input"></label>
-                        <span id="confirm-password-text">confirm password</span>
-                        <input type="password" id="confirm-password-input" name="user-confirm-password" autocomplete="off">
-                    </li>
-                </ul>
+                        <input type="text" required>
+                        <div class="labelline">first name</div>
+                    </div>
+                </div>
             </form>
 
             <button type="submit" class="submit-button">create account</button>
