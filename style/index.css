@@ -28,6 +28,10 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+textarea:focus, input:focus {
+    outline: none;
+}
+
 /*Default CSS Custom Variables*/
 :root {
     --default-overflow-wrap: break-word;
