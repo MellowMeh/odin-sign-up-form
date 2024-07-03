@@ -131,12 +131,19 @@ main {
 }
 
 .container {
-    width: 400px;
-    margin: 20px 0px;
+    width: 100%;
+    border: 1px solid green;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
 }
 
 .entryarea{
     position: relative;
+    width: 45%;
     height: 80px;
     line-height: 80px;
 }
