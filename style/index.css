@@ -132,29 +132,29 @@ main {
 
 .container {
     width: 100%;
-    border: 1px solid green;
+    text-transform: uppercase;
 }
 
 fieldset {
     display: flex;
     justify-content: space-between;
-    margin: 30px 0px;
 }
 
 .entryarea{
     position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
     width: 45%;
-    height: 80px;
-    line-height: 80px;
+    height: calc(var(--default-font-size)*3.5);
 }
 
 input {
     position: absolute;
     width: 100%;
+    height: calc(var(--default-font-size)*2);
     outline: none;
-    font-size: var(--default-font-size);
-    padding: 0 30px;
-    line-height: 80px;
+    font-size: calc(var(--default-font-size)*0.75);
     border-radius: 10px;
     border: 2px solid #f0ffff;
     background: transparent;
@@ -163,41 +163,47 @@ input {
 
 .labelline {
     position: absolute;
-    font-size: calc(var(--default-font-size)*.7);
-    color: whitesmoke;
-    padding: 0 25px;
-    margin: 0 20px;
+    width: auto;
+    font-size: calc(var(--default-font-size)*.6);
+    font-weight: 100;
+    color: darkgrey;
+    padding: 0 15px;
     transition: 0.5s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 ;}
 
 input:focus {
-    color: #f47f51;
-    border: 1px solid #f47f51;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 20px;
 }
 
 input:focus + .labelline {
     color: whitesmoke;
-    background-color: #f47f51;
-    border-radius: 10px;
+    background-color: #010513;
+    width: auto;
+    height: auto;
     font-size: calc(var(--default-font-size)*.55);
-    height: 30px;
-    line-height: 30px;
-    transform: translate(-5px, -14px);
+    transform: translate(5%, -150%);
     z-index: 1111;
 }
 input:valid {
     color: green;
     border: 1px solid green;
+    padding: 20px;
+    transition-duration: 1000ms;
 }
 
 input:valid + .labelline {
     color: whitesmoke;
     background-color: green;
     border-radius: 10px;
+    width: auto;
+    height: auto;
     font-size: calc(var(--default-font-size)*.55);
-    height: 30px;
-    line-height: 30px;
-    transform: translate(-5px, -14px);
+    transform: translate(5%, -150%);
     z-index: 1111;
 }
 
